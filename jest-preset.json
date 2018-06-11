@@ -1,0 +1,11 @@
+{
+    "roots": [
+        "<rootDir>/tests/unit/javascript"
+    ],
+    "transformIgnorePatterns": [
+        "<rootDir>/node_modules/(?!(bootstrap)/)"
+    ],
+    "moduleNameMapper": {
+        "\\.(css|twig)$": "identity-obj-proxy"
+    }
+}

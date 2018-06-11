@@ -1,0 +1,15 @@
+{
+    "name": "@leviy/jest-preset-default",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:leviy/jest-preset-default.git"
+    },
+    "homepage": "https://github.com/leviy/jest-preset-default/",
+    "dependencies": {
+        "identity-obj-proxy": "^3.0"
+    },
+    "peerDependencies": {
+        "jest": "^23.1"
+    }
+}
