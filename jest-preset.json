@@ -6,6 +6,6 @@
         "<rootDir>/node_modules/(?!(bootstrap)/)"
     ],
     "moduleNameMapper": {
-        "\\.(css|twig)$": "identity-obj-proxy"
+        "\\.(css|scss|twig)$": "identity-obj-proxy"
     }
 }
