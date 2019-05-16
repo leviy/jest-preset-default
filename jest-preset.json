@@ -3,9 +3,13 @@
         "<rootDir>/tests/unit/javascript"
     ],
     "transformIgnorePatterns": [
-        "<rootDir>/node_modules/(?!(bootstrap)/)"
+        "<rootDir>/node_modules/(?!(bootstrap|daemonite-material|@leviy)/)"
     ],
+    "transform": {
+        "\\.twig$": "@leviy/jest-twig-transformer",
+        "\\.js?$": "babel-jest"
+    },
     "moduleNameMapper": {
-        "\\.(css|twig)$": "identity-obj-proxy"
+        "\\.(css|scss)$": "identity-obj-proxy"
     }
 }
