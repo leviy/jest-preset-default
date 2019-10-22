@@ -1,13 +1,13 @@
 {
     "name": "@leviy/jest-preset-default",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com:leviy/jest-preset-default.git"
     },
     "homepage": "https://github.com/leviy/jest-preset-default/",
     "dependencies": {
-        "@leviy/jest-twig-transformer": "^1.0",
+        "@leviy/jest-twig-transformer": "^1.1",
         "identity-obj-proxy": "^3.0"
     },
     "peerDependencies": {
