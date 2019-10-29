@@ -14,7 +14,8 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: '@leviy'
-      - run: npm --no-git-tag-version version ${{github.event.release.name}}
-      - run: npm publish
+      - run: |
+          npm --no-git-tag-version version ${{github.event.release.name}}
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
