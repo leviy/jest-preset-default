@@ -7,7 +7,7 @@
     },
     "homepage": "https://github.com/leviy/jest-preset-default/",
     "dependencies": {
-        "@leviy/jest-twig-transformer": "^2.0.0",
+        "@leviy/jest-twig-transformer": "^2.0.1",
         "identity-obj-proxy": "^3.0"
     },
     "peerDependencies": {
